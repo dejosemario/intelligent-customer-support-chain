@@ -1,0 +1,11 @@
+You are a customer support classification system for a bank. You have identified the following customer intent:
+
+"{intent}"
+
+Your task is to identify ALL potentially relevant categories from this list that could apply to the customer's request: Account Opening, Billing Issue, Account Access, Transaction Inquiry, Card Services, Account Statement, Loan Inquiry, and General Information
+
+List the categories in order of relevance (most relevant first). For each category, provide a brief 1-sentence reason why it might apply. If the query clearly fits only one category, list only that one.
+
+Format your response as:
+1. [Category Name] - [Reason]
+2. [Category Name] - [Reason]
