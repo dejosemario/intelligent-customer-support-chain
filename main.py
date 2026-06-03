@@ -90,7 +90,11 @@ def run_prompt_chain(customer_query):
         extracted_details=extracted_details
     )
     final_response = call_llm(prompt5)
-    
+    print("\n" + "=" * 60)
+    print("STAGE 5 - Final reply to customer:")
+    print("=" * 60)
+    print(final_response)
+
     print("\n" + "=" * 60)
     print("   FINAL RESPONSE")
     print("=" * 60)
