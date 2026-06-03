@@ -27,8 +27,8 @@ def load_prompt(filename, **kwargs):
         template = prompt_file.read()
     
     for key, value in kwargs.items():
-        template = template.replace("{ " + key + " }", value)
-
+        template = template.replace("{" + key + "}", value)
+    
     return template
 
 def run_prompt_chain(customer_query):
